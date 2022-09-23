@@ -25,6 +25,7 @@ h1 {
     color: black;
     border: 1px black solid;
     text-align: center;
+    cursor: pointer;
 }
 
 #container>div {
@@ -33,6 +34,7 @@ h1 {
     padding: 10px;
     border: 1px black solid;
     color: black;
+    cursor: pointer;
 }
 
 #container>button {
