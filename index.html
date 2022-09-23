@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Basic Calculator</h1>
+    <div id="textArea">Enter Your Values</div>
+    <div id="container">
+        <div id="box-1" onclick="digitPressed(1)">1</div>
+        <div id="box-2" onclick="digitPressed(2)">2</div>
+        <div id="box-3" onclick="digitPressed(3)">3</div>
+        <div id="box-+" onclick="symbolPressed('+')">+</div>
+        <div id="box-4" onclick="digitPressed(4)">4</div>
+        <div id="box-5" onclick="digitPressed(5)">5</div>
+        <div id="box-6" onclick="digitPressed(6)">6</div>
+        <div id="box-*" onclick="symbolPressed('*')">*</div>
+        <div id="box-7" onclick="digitPressed(7)">7</div>
+        <div id="box-8" onclick="digitPressed(8)">8</div>
+        <div id="box-9" onclick="digitPressed(9)">9</div>
+        <div id="box-/" onclick="symbolPressed('/')">/</div>
+        <div id="box-%" onclick="symbolPressed('-')">-</div>
+        <!-- <div id="box-91" style="visibility: hidden;" onclick="digitPressed(9)"></div> -->
+        <div id="box-9" onclick="digitPressed(0)">0</div>
+        <div id="box-^" onclick="symbolPressed('^')">^</div>
+        <button type="submit" onclick="calculate()">SUBMIT</button>
+        <button onclick="clearScreen()">CLEAR</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
